@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>GtkSharp.Win32</id>
+    <version>3.0.7</version>
+    <authors>Mike Kestner</authors>
+    <owners>nimoov</owners>
+    <licenseUrl>https://github.com/mono/gtk-sharp/blob/master/COPYING</licenseUrl>
+    <projectUrl>https://github.com/mono/gtk-sharp</projectUrl>
+    <iconUrl>https://upload.wikimedia.org/wikipedia/en/5/5f/Gtk_Sharp_Logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Gtk# is a .NET language binding for the GTK+ toolkit and assorted GNOME libraries. Gtk# is free software, licensed under the GNU LGPL. This package contains GTK3 win32 binaries.</description>
+    <copyright>Copyright 2015</copyright>
+    <tags>GTK3 GTK# gtk3-sharp</tags>
+    <dependencies>
+      <dependency id="GtkSharp" version="3.0.0" />
+    </dependencies>
+ </metadata>
+ <files> 
+   <file src="libatk-1.0-0.dl_" target="build/net45" />  
+   <file src="libcairo-gobject-2.dl_" target="build/net45" />  
+   <file src="libgcc_s_sjlj-1.dl_" target="build/net45" />  
+   <file src="libgdk_pixbuf-2.0-0.dl_" target="build/net45" />  
+   <file src="libglib-2.0-0.dl_" target="build/net45" />  
+   <file src="libgobject-2.0-0.dl_" target="build/net45" />  
+   <file src="libintl-8.dl_" target="build/net45" />  
+   <file src="libpangocairo-1.0-0.dl_" target="build/net45" />  
+   <file src="libpixman-1-0.dl_" target="build/net45" />  
+   <file src="libwinpthread-1.dl_" target="build/net45" />  
+   <file src="iconv.dl_" target="build/net45" />  
+   <file src="libcairo-2.dl_" target="build/net45" />  
+   <file src="libffi-6.dl_ " target="build/net45" />  
+   <file src="libgdk-3-0.dl_" target="build/net45" />  
+   <file src="libgio-2.0-0.dl_" target="build/net45" />  
+   <file src="libgmodule-2.0-0.dl_" target="build/net45" />  
+   <file src="libgtk-3-0.dl_" target="build/net45" />  
+   <file src="libpango-1.0-0.dl_" target="build/net45" />  
+   <file src="libpangowin32-1.0-0.dl_" target="build/net45" />  
+   <file src="libpng16-16.dl_" target="build/net45" />  
+   <file src="zlib1.dl_" target="build/net45" />  
+   <file src="GtkSharp.Win32.targets" target="build/net45" />
+ </files>
+</package>
+
