@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>GtkSharp</id>
-    <version>3.0.6</version>
+    <version>3.0.8</version>
     <authors>Mike Kestner</authors>
     <owners>nimoov</owners>
     <licenseUrl>https://github.com/mono/gtk-sharp/blob/master/COPYING</licenseUrl>
