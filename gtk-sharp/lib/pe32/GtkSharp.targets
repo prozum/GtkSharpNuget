@@ -5,6 +5,6 @@
       <Output TaskParameter="Include" ItemName="MapConfigs" />
     </CreateItem>
 
-    <Copy SourceFiles="@(MapConfigs)" DestinationFiles="@(MapConfigs->'$(OutputPath)\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(MapConfigs)" DestinationFiles="@(MapConfigs->'$(OutDir)\%(RecursiveDir)%(Filename)%(Extension)')" />
   </Target>
 </Project>

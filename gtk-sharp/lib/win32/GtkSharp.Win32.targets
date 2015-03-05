@@ -5,7 +5,7 @@
       <Output TaskParameter="Include" ItemName="NativeDLLs" />
     </CreateItem>
 
-    <Copy SourceFiles="@(NativeDLLs)" DestinationFiles="@(NativeDLLs->'$(OutputPath)\%(RecursiveDir)%(Filename).dll')" />
+    <Copy SourceFiles="@(NativeDLLs)" DestinationFiles="@(NativeDLLs->'$(OutDir)\%(RecursiveDir)%(Filename).dll')" />
   </Target>
 </Project>
 
