@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>CppSharp</id>
-    <version>0.0.1</version>
+    <version>0.0.3</version>
     <authors>Xamarin</authors>
     <owners>nimoov</owners>
     <licenseUrl>https://raw.githubusercontent.com/mono/CppSharp/master/LICENSE</licenseUrl>
@@ -10,10 +10,11 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>CppSharp is a collection of libraries for working with C++ code from .NET.</description>
     <copyright>Copyright 2015</copyright>
-    <tags>GTK3 GTK# gtk3-sharp</tags>
+    <tags>CppSharp</tags>
  </metadata>
  <files> 
    <file src="lib/pe32/*.dll" target="lib/net45" />  
+   <file src="lib/pe32/*.mdb" target="lib/net45" />  
    <file src="lib/pe32/*.config" target="build/net45" />  
    <file src="lib/pe32/CppSharp.targets" target="build/net45" />
  </files>
